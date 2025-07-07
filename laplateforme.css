@@ -1,0 +1,94 @@
+
+@keyframes pulse {
+    
+    100% { background-color: brown; }
+}
+
+body {
+    font-family: Arial, sans-serif
+}
+
+p{
+    color: navy;
+    font-size: 20px;
+}
+ h1{
+    text-align: center;
+ }
+
+ h2{
+    text-align: center;
+    text-shadow: rgb(18, 136, 180) 3px 3px 5px;
+}
+
+
+    mark{
+    background-color: blueviolet;
+    color:gold;
+}
+
+
+a{
+    text-decoration: none;
+}
+.container {
+    border: 4px solid;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+
+
+button{
+    color: rgb(12, 110, 12);
+   border-radius: 10px;
+   cursor: pointer;
+    background-color: lightgray;
+    border-color: brown;
+    font-size: 20px;
+}
+ button:hover {
+    background-color: rgb(12, 110, 12);
+    color: white;
+}
+
+#centrage {
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+}
+
+.pulse {
+    animation:pulse 3s infinite;
+}
+
+
+.containerNav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.boite {
+    display: flex;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: auto;
+   
+}
+
+.Grid-partenaires {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+   gap: 5px;
+}
+.colonne {
+    column-count: 2;
+}
+
+footer {
+    background-color: lightgray;
+    width: 100%;
+}
