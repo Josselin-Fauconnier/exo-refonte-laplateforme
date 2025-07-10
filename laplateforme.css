@@ -1,35 +1,36 @@
-
 @keyframes pulse {
     
-    100% { background-color: brown; }
+100% { background-color: brown; }
 }
+
 
 body {
-    font-family: Arial, sans-serif
-    
+    font-family: Arial, sans-serif;
+    background-color: mediumspringgreen;
+    margin: 0px;
+    padding: 0px;
 }
-
+ main{
+    background-color: whitesmoke;
+ }
 p{
     color: navy;
     font-size: 20px;
 }
- h1{
+ h1,h2{
     text-align: center;
  }
 
- h2{
-    text-align: center;
-    text-shadow: rgb(18, 136, 180) 3px 3px 5px;
-}
+ 
 
 
-    mark{
+mark{
     background-color: blueviolet;
     color:gold;
 }
 
 
-a{
+button a{
     text-decoration: none;
 }
 .container {
@@ -73,7 +74,6 @@ button{
 
 .boite {
     display: flex;
-    border: 2px solid black;
     padding: 10px;
     margin: 10px;
     width: auto;
@@ -89,7 +89,11 @@ button{
     column-count: 2;
 }
 
-footer {
-    background-color: lightgray;
+footer,header {
+    background-color: rgb(123, 116, 227);
     width: 100%;
 }
+
+
+
+
