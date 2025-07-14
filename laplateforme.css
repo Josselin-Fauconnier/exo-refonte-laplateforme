@@ -19,12 +19,15 @@ img, video{
 
 body {
     font-family: Arial, sans-serif;
-    background-color: mediumspringgreen;
-    margin: 0px;
-    padding: 0px;
     min-height: 100vh;
 }
  
+img, video{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 main{
     background-color: whitesmoke;
  }
@@ -48,12 +51,19 @@ mark{
 button a{
     text-decoration: none;
 }
-.container {
+.container-header {
     border: 4px solid;
     display: flex;
     flex-direction: column; 
     justify-content: center; 
     align-items: center;
+}
+
+.conteneur-article{
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid mediumblue;
+    padding: 20px;
 }
 
 
@@ -64,7 +74,7 @@ button{
     background-color: lightgray;
     border-color: brown;
     font-size: 20px;
-    margin:5px;
+    margin:20px;
 }
  button:hover {
     background-color: rgb(12, 110, 12);
@@ -109,21 +119,15 @@ button{
 }
 .colonne {
     column-count: 2;
+    margin: 15px;
 }
 
 footer,header {
     background-color: rgb(123, 116, 227);
-    width: 100%;
+    height: 100%;
+    padding: 30px;
 }
 
 
 
 
-@media screen and (max-width: 768px) {
-    .containerNav ul{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-   
-}
