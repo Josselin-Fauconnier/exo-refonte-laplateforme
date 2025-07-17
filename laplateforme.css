@@ -99,6 +99,10 @@ button:hover {
 }
 
 
+aside{
+    padding: 10px;
+}
+
 .containerNav ul {
     display: flex;
     list-style-type: none;
